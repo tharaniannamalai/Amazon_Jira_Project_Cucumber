@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch Url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4496424400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch The Amazon Url",
+            "match": {
+              "location": "com.stepdef.amazon.Stepdef_Amazon.user_launch_the_amazon_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-02T13:54:33.356Z",
+        "before": [
+          {
+            "result": {
+              "duration": 47972600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdef.amazon.Stepdef_Amazon.Logging()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Amazon Fashion Link",
+        "description": "",
+        "id": "amazon-search-functionality-fashion;amazon-fashion-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3229153300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Click On Fashion Link",
+            "match": {
+              "location": "com.stepdef.amazon.Stepdef_Amazon.user_click_on_fashion_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265846900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click On Sales \u0026 Deals Link",
+            "match": {
+              "location": "com.stepdef.amazon.Stepdef_Amazon.user_click_on_sales_deals_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2493573200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Click on Sunglasses Picture Link",
+            "match": {
+              "location": "com.stepdef.amazon.Stepdef_Amazon.user_click_on_sunglasses_picture_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2108792400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Click On Colour Check Box",
+            "match": {
+              "location": "com.stepdef.amazon.Stepdef_Amazon.user_click_on_colour_check_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5495852900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Click on Sunglass Picture",
+            "match": {
+              "location": "com.stepdef.amazon.Stepdef_Amazon.user_click_on_sunglass_picture()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275842300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Select Quantity \"3\" Of Sunglass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepdef.amazon.Stepdef_Amazon.user_select_quantity_of_sunglass(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6701161900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Click On Add To Cart Btn, It Navigates To \"Amazon.in Shopping Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon.in Shopping Cart\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.stepdef.amazon.Stepdef_Amazon.user_click_on_add_to_cart_btn_it_navigates_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FashionLink"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search Functionality Fashion",
+    "description": "",
+    "id": "amazon-search-functionality-fashion",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/Amazon.feature",
+    "tags": []
+  }
+]
